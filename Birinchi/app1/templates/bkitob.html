@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitob</title>
+</head>
+<body>
+    {% for i in Bkitob %}
+            <h2>{{i.id}}. {{i.nom}}: {{i.mualif}}. Janr: {{i.janr}} {{i.beti}}</h2>
+        {%endfor%}
+</body>
+</html>

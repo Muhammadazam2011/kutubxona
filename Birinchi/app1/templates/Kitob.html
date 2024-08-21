@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitob</title>
+</head>
+<body>
+    <h1>Kitoblar Ro'yhati</h1>
+        {% for i in Kitob %}
+            <h2>{{i.id}}. {{i.nom}}: {{i.mualif}}. Janr: {{i.janr}} {{i.beti}}</h2>
+        {%endfor%}
+</body>
+</html>
